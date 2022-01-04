@@ -1,0 +1,159 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/CastAPIModel.swift",
+      "line": 16,
+      "symbol": "Cast.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/CastAPIModel.swift",
+      "line": 17,
+      "symbol": "Cast.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/CastAPIModel.swift",
+      "line": 19,
+      "symbol": "Cast.init(id:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/DirectorAPIModel.swift",
+      "line": 15,
+      "symbol": "Director.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/DirectorAPIModel.swift",
+      "line": 16,
+      "symbol": "Director.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/DirectorAPIModel.swift",
+      "line": 18,
+      "symbol": "Director.init(id:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 219,
+      "symbol": "HomeContentAPIProtocol.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 220,
+      "symbol": "HomeContentAPIProtocol.profile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 221,
+      "symbol": "HomeContentAPIProtocol.collection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 325,
+      "symbol": "HomeContentAPIModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 326,
+      "symbol": "HomeContentAPIModel.profile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 327,
+      "symbol": "HomeContentAPIModel.collection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/HomeContentAPI.swift",
+      "line": 329,
+      "symbol": "HomeContentAPIModel.init(collection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/Person.swift",
+      "line": 25,
+      "symbol": "Person.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/Person.swift",
+      "line": 26,
+      "symbol": "Person.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/UserAPIModel.swift",
+      "line": 21,
+      "symbol": "UserAPIModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/UserAPIModel.swift",
+      "line": 22,
+      "symbol": "UserAPIModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/UserAPIModel.swift",
+      "line": 23,
+      "symbol": "UserAPIModel.username",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/UserAPIModel.swift",
+      "line": 25,
+      "symbol": "UserAPIModel.init(id:name:username:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/WriterAPIModel.swift",
+      "line": 15,
+      "symbol": "Writer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/WriterAPIModel.swift",
+      "line": 16,
+      "symbol": "Writer.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore/Sources/NetFunCore/APIModels/WriterAPIModel.swift",
+      "line": 18,
+      "symbol": "Writer.init(id:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/minhaz/Desktop/Projects/minhaz/assignments/BFF/swift/vapor/NetFun/NetFunCore"
+}

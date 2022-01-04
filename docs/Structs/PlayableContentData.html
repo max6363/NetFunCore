@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PlayableContentData Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/PlayableContentData" class="dashAnchor"></a>
+
+    <a title="PlayableContentData Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          NetFunCore Docs
+        </a>
+         (70% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">NetFunCore Reference</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      PlayableContentData Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/CollectionItemProtocol.html">CollectionItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HomeContentAPIProtocol.html">HomeContentAPIProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Person.html">Person</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/PlayableContentMediaProtocol.html">PlayableContentMediaProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/PlayableContentMetadataProtocol.html">PlayableContentMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/PlayableContentProtocol.html">PlayableContentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/UserProfileProtocol.html">UserProfileProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Cast.html">Cast</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CollectionItemData.html">CollectionItemData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Director.html">Director</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/HomeContentAPIModel.html">HomeContentAPIModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayableContentData.html">PlayableContentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayableContentMedia.html">PlayableContentMedia</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UserAPIModel.html">UserAPIModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UserProfileData.html">UserProfileData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Writer.html">Writer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>PlayableContentData</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayableContentData</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/PlayableContentProtocol.html">PlayableContentProtocol</a></span><span class="p">,</span> <span class="kt"><a href="../Protocols/PlayableContentMetadataProtocol.html">PlayableContentMetadataProtocol</a></span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>The <code>PlayableContentData</code> struct confirms to protocols - <code><a href="../Protocols/PlayableContentProtocol.html">PlayableContentProtocol</a></code>, <code><a href="../Protocols/PlayableContentMetadataProtocol.html">PlayableContentMetadataProtocol</a></code> &amp; <code>Codable</code></p>
+
+<p><strong>Json</strong> representation,</p>
+<pre class="highlight swift"><code><span class="err">```</span>
+<span class="p">{</span>
+    <span class="s">"id"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s">"cast"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s">"id"</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span>
+            <span class="s">"name"</span><span class="p">:</span> <span class="s">"Actor 1"</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s">"id"</span><span class="p">:</span> <span class="mi">13</span><span class="p">,</span>
+            <span class="s">"name"</span><span class="p">:</span> <span class="s">"Actor 2"</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="s">"title"</span><span class="p">:</span> <span class="s">"Madagaskar"</span><span class="p">,</span>
+    <span class="s">"media"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s">"mediaType"</span><span class="p">:</span> <span class="s">"video"</span><span class="p">,</span>
+            <span class="s">"duration"</span><span class="p">:</span> <span class="mi">85</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="s">"releasedDate"</span><span class="p">:</span> <span class="s">"2003-08-12T20:17:46Z"</span><span class="p">,</span>
+    <span class="s">"type"</span><span class="p">:</span> <span class="s">"movie"</span><span class="p">,</span>
+    <span class="s">"writers"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s">"id"</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
+            <span class="s">"name"</span><span class="p">:</span> <span class="s">"Writer 1"</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="s">"director"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">"id"</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+        <span class="s">"name"</span><span class="p">:</span> <span class="s">"John Parker"</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="err">```</span>
+</code></pre>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore23PlayableContentProtocolP2idSivp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore23PlayableContentProtocolP2idSivp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore23PlayableContentProtocolP5titleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore23PlayableContentProtocolP5titleSSvp">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore23PlayableContentProtocolP4typeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore23PlayableContentProtocolP4typeSSvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore23PlayableContentProtocolP5mediaSayAA0dE5MediaVGvp"></a>
+                    <a name="//apple_ref/swift/Property/media" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore23PlayableContentProtocolP5mediaSayAA0dE5MediaVGvp">media</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">media</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/PlayableContentMedia.html">PlayableContentMedia</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore31PlayableContentMetadataProtocolP8directorAA8DirectorVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/director" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore31PlayableContentMetadataProtocolP8directorAA8DirectorVSgvp">director</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">director</span><span class="p">:</span> <span class="kt"><a href="../Structs/Director.html">Director</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore31PlayableContentMetadataProtocolP7writersSayAA6WriterVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/writers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore31PlayableContentMetadataProtocolP7writersSayAA6WriterVGSgvp">writers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">writers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Writer.html">Writer</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore31PlayableContentMetadataProtocolP4castSayAA4CastVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cast" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore31PlayableContentMetadataProtocolP4castSayAA4CastVGSgvp">cast</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cast</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Cast.html">Cast</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NetFunCore31PlayableContentMetadataProtocolP12releasedDateSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/releasedDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NetFunCore31PlayableContentMetadataProtocolP12releasedDateSSSgvp">releasedDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">releasedDate</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Minhaz Panara</a>. All rights reserved. (Last updated: 2022-01-04)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
