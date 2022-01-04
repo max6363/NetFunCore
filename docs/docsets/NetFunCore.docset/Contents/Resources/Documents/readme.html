@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>README  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="README  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          NetFunCore Docs
+        </a>
+         (70% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">NetFunCore Reference</a>
+      <img class="carat" src="img/carat.png" alt=""/>
+      README  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/CollectionItemProtocol.html">CollectionItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HomeContentAPIProtocol.html">HomeContentAPIProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/Person.html">Person</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/PlayableContentMediaProtocol.html">PlayableContentMediaProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/PlayableContentMetadataProtocol.html">PlayableContentMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/PlayableContentProtocol.html">PlayableContentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/UserProfileProtocol.html">UserProfileProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Cast.html">Cast</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/CollectionItemData.html">CollectionItemData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Director.html">Director</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/HomeContentAPIModel.html">HomeContentAPIModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/PlayableContentData.html">PlayableContentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/PlayableContentMedia.html">PlayableContentMedia</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/UserAPIModel.html">UserAPIModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/UserProfileData.html">UserProfileData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Writer.html">Writer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='netfuncore' class='heading'>NetFunCore</h1>
+
+<p>A set of core classes/models written in Swift for Backend (BFF in Swift) &amp; Frontend (iOS App).</p>
+<h1 id='what-is-bff-backend-for-frontend' class='heading'>What is BFF (Backend For Frontend)?</h1>
+
+<blockquote>
+<p>BFF is a transition layer between server and fronend (browser, mobile clients etc). It consumes API/resources of Microservices and format the data for the frontend.</p>
+</blockquote>
+<h1 id='why-bff' class='heading'>Why BFF?</h1>
+
+<blockquote>
+<p>Since every frontend has its own BFF, all BFFs are independent and easy to manage things correctly/efficiently. All the data formation logic will reside in BFF only.</p>
+</blockquote>
+<h1 id='package' class='heading'>Package</h1>
+<h2 id='how-to-use' class='heading'>How to use?</h2>
+
+<p>The package can be used in BFF (Backend for Frontend) &amp; iOS App.</p>
+<h3 id='backend-for-frontend-bff' class='heading'>Backend For Frontend (BFF)</h3>
+
+<ul>
+<li>Clone repo <a href="https://github.com/max6363/NetFun-Backend">NetFun-Backend</a></li>
+<li>Follow setup instructions of README file.</li>
+</ul>
+<h3 id='ios-app' class='heading'>iOS App</h3>
+
+<ul>
+<li>Clone repo <a href="https://github.com/max6363/NetFun-ios-app">NetFun-ios-app</a></li>
+<li>Follow setup instructions of README file.</li>
+</ul>
+<h3 id='references' class='heading'>References</h3>
+
+<ul>
+<li><a href="https://www.swift.org/server/">https://www.swift.org/server/</a></li>
+<li><a href="https://www.raywenderlich.com/11555468-getting-started-with-server-side-swift-with-vapor-4">https://www.raywenderlich.com/11555468-getting-started-with-server-side-swift-with-vapor-4</a></li>
+<li><a href="https://dev.to/bulsyusuf/how-to-use-the-backend-for-frontend-pattern-in-your-mobile-app-architecture-1fhi">https://dev.to/bulsyusuf/how-to-use-the-backend-for-frontend-pattern-in-your-mobile-app-architecture-1fhi</a></li>
+<li><a href="https://www.dotconferences.com/2020/02/tim-condon-bffs-for-swift">https://www.dotconferences.com/2020/02/tim-condon-bffs-for-swift</a></li>
+<li><a href="https://www.youtube.com/watch?v=G_4YfwJHcKI">https://www.youtube.com/watch?v=G_4YfwJHcKI</a></li>
+</ul>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Minhaz Panara</a>. All rights reserved. (Last updated: 2022-01-04)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>

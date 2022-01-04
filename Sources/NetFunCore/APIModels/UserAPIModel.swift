@@ -7,6 +7,16 @@
 
 import Foundation
 
+/// A model to parse API's json response of `List of profiles`
+///
+/// A valid json representation looks like,
+///
+///     {
+///         "id": 1,
+///         "name" "Max Payne",
+///         "username": "max9"
+///     }
+///
 public struct UserAPIModel: Person, Codable {
     public var id: Int
     public var name: String
